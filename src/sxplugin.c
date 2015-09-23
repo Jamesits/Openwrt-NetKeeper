@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-//TODO : you may obtaion it by git clone https://github.com/squadette/pppd.git
+//TODO : you may obtain it by git clone https://github.com/squadette/pppd.git
 #include "pppd.h"
 #include "md5.h"
 
@@ -44,7 +44,7 @@ static void getPIN(byte *userName, byte *PIN)
     * hebei: hebeicncxinli002
     * ShanDong Mobile : shandongmobile13
     **/
-    strcpy(RADIUS, "hebeicncxinli002");
+    strcpy(RADIUS, "singlenet01");
     timenow = time(NULL);
     info("-------------------------------------");
     info("timenow(Hex)=%ßx\n",timenow);
